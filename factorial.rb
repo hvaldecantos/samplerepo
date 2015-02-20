@@ -3,3 +3,4 @@ def factorial_of num
 end
 
 (5..6).each{|n| puts factorial_of n}
+puts "end"
