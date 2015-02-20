@@ -1,7 +1,11 @@
-def factorial_of_five
+def factorial_of num
   fact = 1
-  (1..5).each {|n| fact*=n}
+  (1..num).each {|n| fact*=n}
   fact
 end
 
-puts factorial_of_five
+five = 5
+six = 6
+
+puts factorial_of five
+puts factorial_of six
