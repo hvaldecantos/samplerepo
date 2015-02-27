@@ -1,4 +1,9 @@
 class Factorial
+
+  def self.compute how, num
+    eval("self.compute_#{how}(#{num})")
+  end
+
   def self.of num
     (1..num).inject(:*)
   end
